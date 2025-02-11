@@ -1,12 +1,12 @@
 {
-  "name": "restaurant-json-server",
+ "name": "restaurant-json-server",
   "version": "1.0.0",
-  "description": "JSON server for restaurant dashboard",
   "main": "server.js",
+  "description": "JSON server for restaurant dashboard",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.3"
   }
 }

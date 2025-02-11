@@ -4,9 +4,9 @@ const router = jsonServer.router("db.json"); // Ensure db.json is in the root fo
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-server.use(router); // Remove '/api' to serve JSON at root
+server.use(router); // Serve JSON from the root
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`JSON Server is running on port ${PORT}`);
+  console.log(`✅ JSON Server is running on port ${PORT}`);
 });
